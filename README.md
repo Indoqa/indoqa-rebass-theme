@@ -43,7 +43,7 @@ export default DemoApp
 
 ### Low level 
 
-If you only want to reuse the rebass configuration file merged with a custom application styles, you can create the config object with 
+If you only want to reuse the rebass configuration file merged with custom application styles, you can create the config object with 
 ```javascript
 import createMaterialTheme from 'indoqa-rebass-theme'
 import customTheme from './my-custom-theme.js'
