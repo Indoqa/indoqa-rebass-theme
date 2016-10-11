@@ -24,7 +24,7 @@ const materialTheme = {
     fontWeight: 300,
     transition: backgroundTransition
   },
-  Drawer_content: {
+  Drawer: {
     padding: '0px'
   }
 }

@@ -2,7 +2,6 @@ import React, {PropTypes} from 'react'
 import createMaterialTheme from '../theme'
 import RobotoProvider from './RobotoProvider.react'
 import './MaterialThemeProvider.css'
-import 'normalize.css/normalize.css'
 
 class MaterialThemeProvider extends React.Component {
 
@@ -25,7 +24,7 @@ class MaterialThemeProvider extends React.Component {
 
 MaterialThemeProvider.propTypes = {
   children: PropTypes.node,
-  customTheme: PropTypes.node,
+  customTheme: PropTypes.object,
 }
 
 MaterialThemeProvider.childContextTypes = {
