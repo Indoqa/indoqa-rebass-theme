@@ -16,7 +16,7 @@ The theme is designed to add a basic material look and feel. It intents to be ex
 For convenience we provide a higher order component that
   * sets app the rebass child context
   * merges a custom application theme into the material theme
-  * adds a root <div> that sets font-family to 'Roboto'
+  * adds a root `<div>` that sets font-family to 'Roboto'
   * adds a css file that includes the Roboto font files downloaded from Google Fonts
 
 ```javascript
