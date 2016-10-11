@@ -4,13 +4,16 @@ A rebass theme based on material design. See a list of already styled components
 
 ## Design
 
-The theme is designed to add a basic material look and feel. It intents to be extended by a custom application theme. Cascading order should by "Rebass base styles" < "Material Theme" < "Custom Applicaton Theme" < "Per component styling".
+The theme is designed to add a basic material look and feel. It intents to be extended by a custom application theme. Cascading order should be 
+```
+"Rebass base styles" < "Material Theme" < "Custom Applicaton Theme" < "Per component styling"
+```
 
 ## Usage
 
 ### Higher order component
 
-For convenience we provid  a higher order component that
+For convenience we provide  a higher order component that
   * sets app rebass child context
   * merges custom application theme into material theme
   * sets font-family to 'Roboto'
